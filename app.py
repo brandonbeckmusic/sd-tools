@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv('vehicles_us.csv')
-
 st.header("Exploratory Data Analysis: Vehicle Data")
+
+df = pd.read_csv('/Users/BrandonBeck/Documents/GitHub/sd-tools/vehicles_us.csv')
 
 st.write(df.head())
 
